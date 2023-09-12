@@ -76,5 +76,3 @@ for (range in names(percentages)) {
   cat(paste("\nFor range", range, "BTC:\n"))
   print(percentages[[range]])
 }
-
-#dev.off() # You can uncomment this if you wish to close the graphics device
